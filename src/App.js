@@ -6,6 +6,7 @@ import Mother from "./Mother";
 import GrandFatherN from "./GrandFatherN";
 import GrandMotherN from "./GrandMotherN";
 import GrandFatherZ from "./GrandFatherZ";
+import GrandMotherZ from "./GrandMotherZ";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <GrandFatherN/>
         <GrandMotherN/>
         <GrandFatherZ/>
+        <GrandMotherZ/>
 
 
     </div>
