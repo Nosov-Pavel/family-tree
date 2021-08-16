@@ -1,15 +1,18 @@
 
 import './App.css';
-import TeoN from "./TeoN";
+import Son from "./Son";
 import Father from "./Father";
 import Mother from "./Mother";
+import GrandFatherN from "./GrandFatherN";
 
 function App() {
   return (
     <div className="App">
-      <TeoN/>
+      <Son/>
        <Father/>
        <Mother/>
+        <GrandFatherN/>
+
     </div>
   );
 }

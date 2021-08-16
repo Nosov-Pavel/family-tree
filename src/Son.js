@@ -1,6 +1,6 @@
-function TeoN(){
+function Son(){
     return(
         <div>Theodore Nosov</div>
     );
 }
-export default TeoN;
+export default Son;
