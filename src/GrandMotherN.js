@@ -1,6 +1,7 @@
-function GrandMotherN(){
+function GrandMotherN(props){
     return(
-        <p>MargaritaBarablina</p>
+        <p>{props.fam} - MargaritaBarablina</p>
+
     );
 }
 export default GrandMotherN;
