@@ -1,6 +1,6 @@
 function GrandMotherZ(){
     return(
-        <p>ZinaidaZ</p>
+        <p>ZinaidaVereina</p>
     );
 }
 export default GrandMotherZ;
