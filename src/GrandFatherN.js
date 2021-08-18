@@ -1,6 +1,6 @@
-function GrandFatherN(){
+function GrandFatherN(props){
     return(
-        <p>EvgeniyNosov</p>
+        <p>{props.famF}-EvgeniyNosov</p>
     );
 }
 export default GrandFatherN;

@@ -10,12 +10,13 @@ import GrandMotherZ from "./GrandMotherZ";
 
 function App() {
     const familys = 'Grand Mother';
+    const familysF = 'Grand Father';
   return (
     <div className="App">
       <Son/>
        <Father/>
        <Mother/>
-        <GrandFatherN/>
+        <GrandFatherN famF={familysF}/>
         <GrandMotherN fam={familys}/>
         <GrandFatherZ/>
         <GrandMotherZ fam={familys}/>
