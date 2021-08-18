@@ -1,6 +1,6 @@
-function Son(){
+function Son(props){
     return(
-        <div>Theodore Nosov</div>
+        <div>{props.famSon}-Theodore Nosov</div>
     );
 }
 export default Son;

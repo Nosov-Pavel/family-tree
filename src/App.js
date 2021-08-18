@@ -13,9 +13,10 @@ function App() {
     const familysF = 'Grand Father';
     const famFather = 'Father';
     const famMother = 'Mother';
+    const famSon = 'Son';
   return (
     <div className="App">
-      <Son/>
+      <Son famSon={famSon}/>
        <Father famFather={famFather}/>
        <Mother famMother={famMother}/>
         <GrandFatherN famF={familysF}/>
