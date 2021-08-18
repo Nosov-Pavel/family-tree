@@ -1,6 +1,6 @@
-function Father(){
+function Father(props){
     return(
-        <p>Pavel Nosov</p>
+        <p>{props.famFather}-Pavel Nosov</p>
     );
 }
 export default Father;
