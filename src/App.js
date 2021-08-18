@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <Son/>
        <Father famFather={famFather}/>
-       <Mother/>
+       <Mother famMother={famMother}/>
         <GrandFatherN famF={familysF}/>
         <GrandMotherN fam={familys}/>
         <GrandFatherZ famF={familysF}/>

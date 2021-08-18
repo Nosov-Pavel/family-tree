@@ -1,6 +1,6 @@
-function Mother(){
+function Mother(props){
     return(
-        <p>Ekaterina Zagritsina</p>
+        <p>{props.famMother}-Ekaterina Zagritsina</p>
     );
 }
 export default Mother;
