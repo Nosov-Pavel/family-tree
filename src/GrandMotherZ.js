@@ -1,6 +1,6 @@
-function GrandMotherZ(){
+function GrandMotherZ(props){
     return(
-        <p>ZinaidaVereina</p>
+        <p>{props.fam}-ZinaidaVereina</p>
     );
 }
 export default GrandMotherZ;
