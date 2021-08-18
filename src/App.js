@@ -18,7 +18,7 @@ function App() {
        <Mother/>
         <GrandFatherN famF={familysF}/>
         <GrandMotherN fam={familys}/>
-        <GrandFatherZ/>
+        <GrandFatherZ famF={familysF}/>
         <GrandMotherZ fam={familys}/>
 
 
